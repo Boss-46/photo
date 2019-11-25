@@ -5,6 +5,7 @@
               <ul class="ul" id="viweLi">
                 <li><img src="../../static/img/bg1.jpg" alt="图片加载失败"></li>
                 <li><img src='../../static/img/bg2.jpg' alt="图片加载失败"></li>
+                <li><img src='../../static/img/bg3.jpg' alt="图片加载失败"></li>
               </ul>
           </div>
       </div>
@@ -13,6 +14,7 @@
             <ul class="ul" id="leftLi">
                 <li><div class="empty"></div></li>
                 <li><img src='../../static/img/bg1.jpg' alt="图片加载失败"></li>
+                <li><img src='../../static/img/bg2.jpg' alt="图片加载失败"></li>
             </ul>
           </div>
       </div>
@@ -20,10 +22,8 @@
           <div class="box3">
               <ul class="ul" id="rightLi">
                   <li><img src='../../static/img/bg2.jpg' alt="图片加载失败"></li>
-                  <li>
-                      <div class="empty">
-                      </div>
-                  </li>
+                  <li><img src='../../static/img/bg3.jpg' alt="图片加载失败"></li>
+                  <li><div class="empty"></div></li>
               </ul>
           </div>
       </div>
@@ -122,6 +122,7 @@ export default {
 img{
     height: 600px;
     width: 895px;
+    object-fit:cover;
 }
 .box1,.box2,.box3{
     height: 600px;
